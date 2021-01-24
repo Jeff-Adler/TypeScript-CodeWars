@@ -30,6 +30,10 @@ export function var12VoidFunction(): void {
   return undefined;
 }
 
+export const var12_2VoidFunction = (): void => {
+  console.log("");
+};
+
 export const var13Null: null = null;
 
 export const var14Undefined: undefined = undefined;
@@ -37,3 +41,7 @@ export const var14Undefined: undefined = undefined;
 export function var15NeverFunction(): never {
   throw new Error();
 }
+
+export const var15_2NeverFunction = (): never => {
+  throw new Error();
+};

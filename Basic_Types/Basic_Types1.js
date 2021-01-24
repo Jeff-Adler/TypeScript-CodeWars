@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.var15NeverFunction = exports.var14Undefined = exports.var13Null = exports.var12VoidFunction = exports.var11ArrayOfAny = exports.var10Enum = exports.Color = exports.var9Tuple = exports.var8NumericArray = exports.var7Array = exports.var6String = exports.var5Octal = exports.var4Binary = exports.var3Hex = exports.var2Decimal = exports.var1Boolean = void 0;
+exports.var15_2NeverFunction = exports.var15NeverFunction = exports.var14Undefined = exports.var13Null = exports.var12_2VoidFunction = exports.var12VoidFunction = exports.var11ArrayOfAny = exports.var10Enum = exports.Color = exports.var9Tuple = exports.var8NumericArray = exports.var7Array = exports.var6String = exports.var5Octal = exports.var4Binary = exports.var3Hex = exports.var2Decimal = exports.var1Boolean = void 0;
 /* Learning TypeScript. Basic Types
 Overview:
 In this kata you'll get familiar with TypeScript's basic types.
@@ -26,9 +26,17 @@ function var12VoidFunction() {
     return undefined;
 }
 exports.var12VoidFunction = var12VoidFunction;
+const var12_2VoidFunction = () => {
+    console.log("");
+};
+exports.var12_2VoidFunction = var12_2VoidFunction;
 exports.var13Null = null;
 exports.var14Undefined = undefined;
 function var15NeverFunction() {
     throw new Error();
 }
 exports.var15NeverFunction = var15NeverFunction;
+const var15_2NeverFunction = () => {
+    throw new Error();
+};
+exports.var15_2NeverFunction = var15_2NeverFunction;
